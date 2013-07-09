@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A30FAA161784CA6F009DE751 /* PlaceItem.m in Sources */ = {isa = PBXBuildFile; fileRef = A30FAA151784CA6F009DE751 /* PlaceItem.m */; };
+		A30FAA171784CA6F009DE751 /* PlaceItem.m in Sources */ = {isa = PBXBuildFile; fileRef = A30FAA151784CA6F009DE751 /* PlaceItem.m */; };
+		A30FAA1A1784D1E0009DE751 /* TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A30FAA191784D1E0009DE751 /* TableViewCell.m */; };
+		A30FAA1B1784D1E0009DE751 /* TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A30FAA191784D1E0009DE751 /* TableViewCell.m */; };
+		A30FAA1D1784D25F009DE751 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A30FAA1C1784D25F009DE751 /* QuartzCore.framework */; };
+		A30FAA211784F8C6009DE751 /* StrikethroughLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = A30FAA201784F8C5009DE751 /* StrikethroughLabel.m */; };
+		A30FAA221784F8C6009DE751 /* StrikethroughLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = A30FAA201784F8C5009DE751 /* StrikethroughLabel.m */; };
 		A32D4F8A178493D7004D7836 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A32D4F89178493D7004D7836 /* Foundation.framework */; };
 		A32D4F8C178493D7004D7836 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A32D4F8B178493D7004D7836 /* CoreGraphics.framework */; };
 		A32D4F8E178493D7004D7836 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A32D4F8D178493D7004D7836 /* UIKit.framework */; };
@@ -21,8 +28,6 @@
 		A32D4FAB178493D8004D7836 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A32D4F8D178493D7004D7836 /* UIKit.framework */; };
 		A32D4FB3178493D8004D7836 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A32D4FB1178493D8004D7836 /* InfoPlist.strings */; };
 		A32D4FB5178493D8004D7836 /* ClearStyleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A32D4FB4178493D8004D7836 /* ClearStyleTests.m */; };
-		A32D4FC01784AB16004D7836 /* PlaceItem.m in Sources */ = {isa = PBXBuildFile; fileRef = A32D4FBF1784AB16004D7836 /* PlaceItem.m */; };
-		A32D4FC11784AB16004D7836 /* PlaceItem.m in Sources */ = {isa = PBXBuildFile; fileRef = A32D4FBF1784AB16004D7836 /* PlaceItem.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +41,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A30FAA141784CA6F009DE751 /* PlaceItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PlaceItem.h; path = ClearStyle/PlaceItem.h; sourceTree = "<group>"; };
+		A30FAA151784CA6F009DE751 /* PlaceItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PlaceItem.m; path = ClearStyle/PlaceItem.m; sourceTree = "<group>"; };
+		A30FAA181784D1E0009DE751 /* TableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TableViewCell.h; path = ClearStyle/TableViewCell.h; sourceTree = "<group>"; };
+		A30FAA191784D1E0009DE751 /* TableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TableViewCell.m; path = ClearStyle/TableViewCell.m; sourceTree = "<group>"; };
+		A30FAA1C1784D25F009DE751 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		A30FAA1E1784F0A2009DE751 /* TableViewCellDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TableViewCellDelegate.h; path = ClearStyle/TableViewCellDelegate.h; sourceTree = "<group>"; };
+		A30FAA1F1784F8C5009DE751 /* StrikethroughLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = StrikethroughLabel.h; path = ClearStyle/StrikethroughLabel.h; sourceTree = "<group>"; };
+		A30FAA201784F8C5009DE751 /* StrikethroughLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = StrikethroughLabel.m; path = ClearStyle/StrikethroughLabel.m; sourceTree = "<group>"; };
 		A32D4F86178493D7004D7836 /* ClearStyle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ClearStyle.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A32D4F89178493D7004D7836 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		A32D4F8B178493D7004D7836 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -55,8 +68,6 @@
 		A32D4FB0178493D8004D7836 /* ClearStyleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ClearStyleTests-Info.plist"; sourceTree = "<group>"; };
 		A32D4FB2178493D8004D7836 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A32D4FB4178493D8004D7836 /* ClearStyleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ClearStyleTests.m; sourceTree = "<group>"; };
-		A32D4FBE1784AB16004D7836 /* PlaceItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PlaceItem.h; path = ClearStyle/PlaceItem.h; sourceTree = "<group>"; };
-		A32D4FBF1784AB16004D7836 /* PlaceItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PlaceItem.m; path = ClearStyle/PlaceItem.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +75,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A30FAA1D1784D25F009DE751 /* QuartzCore.framework in Frameworks */,
 				A32D4F8C178493D7004D7836 /* CoreGraphics.framework in Frameworks */,
 				A32D4F8E178493D7004D7836 /* UIKit.framework in Frameworks */,
 				A32D4F8A178493D7004D7836 /* Foundation.framework in Frameworks */,
@@ -86,8 +98,13 @@
 		A32D4F7D178493D7004D7836 = {
 			isa = PBXGroup;
 			children = (
-				A32D4FBE1784AB16004D7836 /* PlaceItem.h */,
-				A32D4FBF1784AB16004D7836 /* PlaceItem.m */,
+				A30FAA1F1784F8C5009DE751 /* StrikethroughLabel.h */,
+				A30FAA201784F8C5009DE751 /* StrikethroughLabel.m */,
+				A30FAA1E1784F0A2009DE751 /* TableViewCellDelegate.h */,
+				A30FAA181784D1E0009DE751 /* TableViewCell.h */,
+				A30FAA191784D1E0009DE751 /* TableViewCell.m */,
+				A30FAA141784CA6F009DE751 /* PlaceItem.h */,
+				A30FAA151784CA6F009DE751 /* PlaceItem.m */,
 				A32D4F8F178493D7004D7836 /* ClearStyle */,
 				A32D4FAE178493D8004D7836 /* ClearStyleTests */,
 				A32D4F88178493D7004D7836 /* Frameworks */,
@@ -107,6 +124,7 @@
 		A32D4F88178493D7004D7836 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				A30FAA1C1784D25F009DE751 /* QuartzCore.framework */,
 				A32D4F89178493D7004D7836 /* Foundation.framework */,
 				A32D4F8B178493D7004D7836 /* CoreGraphics.framework */,
 				A32D4F8D178493D7004D7836 /* UIKit.framework */,
@@ -257,7 +275,9 @@
 			files = (
 				A32D4FA0178493D7004D7836 /* ViewController.m in Sources */,
 				A32D4F9A178493D7004D7836 /* AppDelegate.m in Sources */,
-				A32D4FC01784AB16004D7836 /* PlaceItem.m in Sources */,
+				A30FAA161784CA6F009DE751 /* PlaceItem.m in Sources */,
+				A30FAA1A1784D1E0009DE751 /* TableViewCell.m in Sources */,
+				A30FAA211784F8C6009DE751 /* StrikethroughLabel.m in Sources */,
 				A32D4F96178493D7004D7836 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -266,7 +286,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A32D4FC11784AB16004D7836 /* PlaceItem.m in Sources */,
+				A30FAA171784CA6F009DE751 /* PlaceItem.m in Sources */,
+				A30FAA1B1784D1E0009DE751 /* TableViewCell.m in Sources */,
+				A30FAA221784F8C6009DE751 /* StrikethroughLabel.m in Sources */,
 				A32D4FB5178493D8004D7836 /* ClearStyleTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -385,6 +407,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ClearStyle/ClearStyle-Prefix.pch";
 				INFOPLIST_FILE = "ClearStyle/ClearStyle-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -398,6 +421,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ClearStyle/ClearStyle-Prefix.pch";
 				INFOPLIST_FILE = "ClearStyle/ClearStyle-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -462,6 +486,7 @@
 				A32D4FBA178493D8004D7836 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A32D4FBB178493D8004D7836 /* Build configuration list for PBXNativeTarget "ClearStyleTests" */ = {
 			isa = XCConfigurationList;
@@ -470,6 +495,7 @@
 				A32D4FBD178493D8004D7836 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

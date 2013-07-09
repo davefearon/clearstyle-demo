@@ -7,8 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "TableViewCellDelegate.h"
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController <UITableViewDataSource, UITableViewDelegate, TableViewCellDelegate>
 
 @property (weak, nonatomic) IBOutlet UITableView *tableView;
 
